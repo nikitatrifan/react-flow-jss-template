@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', -apple-system, 'SF UI Display', 'Helvetica Neue', 'Arial', sans-serif;
+  width: 100%;
+  overflow-x: hidden;
+  position: relative;
+  background-color: #FAFAFA;
+}
+* {
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  box-sizing: border-box;
+}
+img, svg {
+  user-select: none;
+  width: 100%;
+  height: auto;
+  display: block;
+  pointer-events: none;
+}
